@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@drawable/ic_launcher_background"
+        android:gravity="center"
+        android:text="THÔNG TIN CHI TIẾT KHÁCH HÀNG"
+        android:textSize="24sp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="Mã Khách Hàng "
+                android:layout_weight="0.1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+    <TextView
+        android:layout_weight="0.8"
+        android:textSize="20sp"
+        android:id="@+id/txtMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Tên Khách Hàng "
+                android:layout_weight="0.1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"/>
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtTenn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Chỉ Số Mới "
+                android:layout_weight="0.1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_weight="0.9"
+        android:textSize="20sp"
+        android:id="@+id/txtChiSoMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:text="Chỉ Số Cũ "
+            android:layout_weight="0.1"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_weight="0.9"
+        android:textSize="20sp"
+        android:id="@+id/txtCHiSoCu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:text="Tiền Điện "
+            android:layout_weight="0.1"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_weight="0.9"
+        android:id="@+id/txtTienDien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
